@@ -1195,5 +1195,8 @@ a {
     position: fixed;
 
     /* fica à frente dos elementos */
-    z-index: 2;
+    z-index: 12;
+}
+video{
+width: 100vw;
 }
