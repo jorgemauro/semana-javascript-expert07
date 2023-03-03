@@ -23,6 +23,7 @@ export default class HandGestureController {
   #scrollPage(direction) {
     const pixelsPerScroll = 100
     if (this.#lastDirection.direction === direction) {
+      console.log(direction)
       this.#lastDirection.y = (
         direction === 'scroll-down' ?
           this.#lastDirection.y + pixelsPerScroll :
